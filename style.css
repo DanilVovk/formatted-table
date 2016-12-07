@@ -14,6 +14,10 @@ th, td {
 	text-align: center;
 }
 
+th{
+	background-color: #4A9586;
+}
+
 /*set left positioning for team names*/
 th:nth-child(2), td:nth-child(2){
 	text-align: left;
@@ -26,4 +30,9 @@ td:first-child{
 /*every coloumn starting from 3rd */
 td:nth-child(n+3){
 	width: 60px;
+}
+
+/* even coloums */
+tr:nth-child(even){
+	background-color: #FCFCE9	;
 }
