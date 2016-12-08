@@ -1,4 +1,43 @@
+table{
+	width: 50%;
+	position: relative;
+	left: 25%;
+}
+
 table, th, td {
-	border: 1px solid black;
+	border-bottom: 1px solid #A9A9A9;
 	border-collapse: collapse;
+}
+
+th, td {
+	padding: 20px;
+	text-align: center;
+}
+
+th{
+	background-color: #4A9586;
+}
+
+/*set left positioning for team names*/
+th:nth-child(2), td:nth-child(2){
+	text-align: left;
+}
+
+td:first-child{
+	width: 15px;
+}
+
+/*every coloumn starting from 3rd */
+td:nth-child(n+3){
+	width: 60px;
+}
+
+/* even coloums */
+tr:nth-child(even){
+	background-color: #FCFCE9	;
+}
+
+td:hover{
+	background-color: LemonChiffon;
+	color: SteelBlue;
 }
