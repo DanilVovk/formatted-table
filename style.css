@@ -36,3 +36,8 @@ td:nth-child(n+3){
 tr:nth-child(even){
 	background-color: #FCFCE9	;
 }
+
+td:hover{
+	background-color: LemonChiffon;
+	color: SteelBlue;
+}
